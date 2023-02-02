@@ -1,2 +1,2 @@
 # project-library
-Project: Libraru - For TOP
+Project: Library - For TOP
