@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Project: Library</h1>
+        </div>
+
+        <div class="sidebar">
+
+            <div class="form">
+
+                <form id="form" action="#" method="post">
+
+                    <div class="form-input">
+                        <label for="author">Author</label>
+                        <input type="text" id="author" name="author" required />
+                    </div>
+
+                    <div class="form-input">
+                        <label for="title">Title</label>
+                        <input type="text" id="title" name="title" required />
+                    </div>
+
+                    <div class="form-input">
+                        <label for="number-pages">Number of Pages</label>
+                        <input type="text" name="number-pages" id="number-pages" required />
+                    </div>
+
+                    <div class="form-input">
+                        <label for="read"> Read </label>
+                        <input type="checkbox" name="read" id="read" required />
+                    </div>
+
+                    <div class="form-input">
+                        <input type="submit" value="Add Book" id="submit-btn" />
+                    </div>
+
+
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+        <div id="content">
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
